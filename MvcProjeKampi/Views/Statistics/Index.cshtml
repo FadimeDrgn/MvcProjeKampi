@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>İstatistikler</h2>
+<br />
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <img src="~/Images/istatistik.jpg" class="card-img-top">
+                <div class="card-header">Toplam Kategori Sayısı</div>
+                <div class="card-body text-primary">
+                    <h5 class="card-title"><b> @ViewBag.result1 </b></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <img src="~/Images/istatistik.jpg" class="card-img-top">
+                <div class="card-header">Yazılım kategorisine ait başlık sayısı Sayısı</div>
+                <div class="card-body text-primary">
+                    <h5 class="card-title"><b> @ViewBag.result2 </b></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <img src="~/Images/istatistik.jpg" class="card-img-top">
+                <div class="card-header">Yazar adında 'a' harfi geçen yazar sayısı</div>
+                <div class="card-body text-primary">
+                    <h5 class="card-title"><b> @ViewBag.result3 </b></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <img src="~/Images/istatistik.jpg" class="card-img-top">
+                <div class="card-header">En fazla başlığa sahip kategori adı</div>
+                <div class="card-body text-primary">
+                    <h5 class="card-title"><b> @ViewBag.result4 </b></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <img src="~/Images/istatistik.jpg" class="card-img-top">
+                <div class="card-header">Kategori tablosunda durumu true olan kategoriler ile false olan kategoriler arasındaki sayısal fark</div>
+                <div class="card-body text-primary">
+                    <h5 class="card-title"><b> @ViewBag.result5 </b></h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
